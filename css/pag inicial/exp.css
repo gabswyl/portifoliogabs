@@ -1,0 +1,71 @@
+.section_experiencias {
+    background-color: var(--azulmarinho);
+}
+
+ .title_exp {
+    color: var(--preto);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.xd {
+    margin-top: 92px;
+}
+
+
+
+.section_exp {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+}
+
+
+
+.caixa_exp1, .caixa_exp2 {
+    border: 2px solid var(--verde);
+    border-radius: 1.25rem 1.25rem 0px 1.25rem;
+    background-color: var(--roxo);
+    list-style-type: none;
+    width: 475px;
+    height: 170px;
+    margin-top: 30px;
+    
+}
+
+.data_exp {
+    margin-top: 1.25rem;
+    margin-left: 15px;
+    color: var(--azulmarinho);
+}
+
+.title_cargo {
+    margin-top: 2px;
+    margin-left: 15px;
+    color: var(--azulmarinho);
+}
+
+.resumo_exp {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 1rem;
+    color: var(--azulmarinho);
+} 
+
+@media (max-width: 500px) {
+
+    .caixinha {
+        display: flex;
+    justify-content: center;
+    }
+   .caixa_exp1, .caixa_exp2 {
+    width: 80%;
+    height: 100%;
+   }
+}
+

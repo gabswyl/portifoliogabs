@@ -1,0 +1,169 @@
+.section_projetos {
+    background-color: var(--roxo);
+    height: 100%;
+}
+
+.section_title {
+    font-size: 64px;
+    color: var(--azulmarinho);
+    display: flex;
+    justify-content: center;
+}
+
+.container_projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 352px;
+    height: 270px;
+    background-color: var(--azulmarinho);
+}
+
+.titulo_projeto {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--azulmarinho);
+}
+
+.resumo_projeto {
+    margin-top: 16px;
+    color: var(--azulmarinho);
+    display: flex;
+}
+
+.lista_skills {
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    gap: 10px;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lista_skills li {
+    gap: 20px;
+    background-color: var(--preto);
+    color: var(--azulmarinho);
+    border-radius: 8px;
+    padding: 5px 10px;
+}
+
+.more {
+    margin-top: 20px;
+    color: var(--azulmarinho);
+    margin-bottom: 50px;
+}
+
+.verProjetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px
+
+}
+
+.verProjetos a {
+    border-radius: 2px solid var(--preto);
+    border-radius: 8px;
+    background-color: var(--verde);
+    padding: 5px 10px;
+}
+
+@media (max-width: 1000px) {
+    .section_title {
+        font-size: 48px;
+    }
+
+
+}
+
+
+@media (max-width: 700px) {
+    .section_title {
+        font-size: 38px;
+    }
+
+    .lista_skills {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        gap: 10px;
+        list-style-type: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media (max-width: 550px) {
+    .section_title {
+        margin-left: 5%;
+        font-size: 28px;
+    }
+
+    .lista_skills {
+        margin-left: 5%;
+        grid-template-columns: 150px 150px 150px;
+    }
+
+    .more {
+        margin-left: 5%;
+    }
+
+    .titulo_projeto {
+        margin-left: 5%;
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--azulmarinho);
+    }
+    
+    .resumo_projeto {
+        margin-left: 5%;
+        width: 80%;
+        font-size: 16px;
+        margin-top: 16px;
+        color: var(--azulmarinho);
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .section_title {
+        font-size: 38px;
+    }
+
+    .lista_skills {
+        text-align: center;
+        grid-template-columns: 150px 150px;
+        margin-left: 5%;
+    }
+
+    .more {
+        margin-left: 5%;
+    }
+
+    .titulo_projeto {
+        margin-left: 5%;
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--azulmarinho);
+    }
+    
+    .resumo_projeto {
+        font-size: 12px;
+        margin-left: 5%;
+        width: 80%;
+        font-size: 16px;
+        margin-top: 16px;
+        color: var(--azulmarinho);
+    }
+
+}

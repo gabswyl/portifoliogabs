@@ -1,0 +1,84 @@
+
+.section_caixa {
+    background-color: var(--preto);
+    padding-top: 100px;
+    height: 730px;
+}
+
+.containerd {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+.section_dev {
+    font-size: 4.25rem;
+    color: var(--verde);
+    margin-top: 175px;
+}
+
+.section_uiux {
+    font-size: 64px;
+    color: var(--branco);
+}
+
+.dev_desc {
+    color: var(--azulmarinho);
+    width: 41%;
+    margin-top: 15px;
+    font-size: 1.50rem;
+    text-align: center;
+}
+
+.dev_arrow {
+    color: var(--azulmarinho);
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 180px;
+}
+
+@media (max-width: 1000px) {
+
+    .dev_desc {
+        margin-top: 20px;
+    }
+
+    .containerd {
+        display: block;
+    }
+
+    .dev_arrow { 
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .containerd {
+        display: block;
+    }
+
+    .dev_arrow { 
+        display: none;
+    }
+
+    .section_dev,
+    .section_uiux {
+        font-size: 2.25rem;
+    }
+
+
+        
+    .dev_desc {
+        margin-top: 20px;
+    }
+
+
+
+}

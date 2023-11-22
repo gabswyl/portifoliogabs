@@ -1,0 +1,76 @@
+@import url(./pag\ inicial/header.css);
+@import url(./pag\ inicial/section.css);
+@import url(./pag\ inicial/exp.css);
+@import url(./pag\ inicial/formacao.css);
+@import url(./pag\ inicial/footer.css);
+@import url(./pag\ inicial/detalhes.css);
+@import url(./pag\ inicial/geral.css);
+@import url(./pag\ inicial/projetos.css);
+@import url(./contatos/contato.css);
+@import url(./projetos/projetos.css);
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inter', sans-serif;
+}
+
+
+body {
+    background-color: var(--azulmarinho);
+
+
+}
+
+.bodyroxo {
+  background-color: var(--roxo);
+}
+:root {
+     --roxo: #863DFF;
+     --azulmarinho: #DDE0FF;
+     --branco: #FFFFFF;
+     --verde: #CBFF2E;
+     --preto: #070A26;
+    --hover: #9dc91a;
+}
+
+
+.fadeInDown {
+    transform: translate3d(0, -20px, 0);
+  }
+  .fadeInUp {
+    transform: translate3d(0, 20px, 0);
+  }
+  .fadeInRight {
+    transform: translate3d(20px, 0, 0);
+  }
+  .fadeInLeft {
+    transform: translate3d(-20px, 0, 0);
+  }
+  
+  /* 7 Adicione o CSS Essencial abaixo */
+  [data-anime] {
+    opacity: 0;
+  }
+
+  
+  .anime {
+    opacity: 1;
+    transform: none;
+    transition: transform 0.8s, opacity 0.8s;
+  }
+
+
+  /* animacao scroll */ 
+
+  .animacao-scroll {
+    opacity: 0;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  .animacao-scroll.ativo {
+    opacity: 1;
+    transition: .3s;
+    transform: translate3d(0, 0, 0);
+
+  }
